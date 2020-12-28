@@ -7,13 +7,15 @@ import {FormsModule} from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { StarComponent } from './star/star.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    StarComponent
+    StarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
